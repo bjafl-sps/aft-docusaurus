@@ -3,7 +3,8 @@
     "allow": [
       "Bash(claude --version)",
       "Bash(claude skill *)",
-      "Bash(claude plugin *)"
+      "Bash(claude plugin *)",
+      "Bash(pnpm typecheck *)"
     ]
   }
 }
