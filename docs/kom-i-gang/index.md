@@ -32,7 +32,7 @@ Start med å forstå hva vi gjør og hvorfor:
 
 Gå gjennom tiltaksløpet fase for fase. Les dem i rekkefølge:
 
-5. [Tiltaksløpet — oversikt](../tiltakslopet/index.md)
+5. [Tiltaksløpet — oversikt](../tiltakslopet/index.mdx)
 6. [Fase 1: Innledende kontakt](../tiltakslopet/fase-1-innledende-kontakt.md)
 7. [Fase 2: Yrkeskartlegging](../tiltakslopet/fase-2-yrkeskartlegging.md)
 8. [Fase 3: Finne jobb](../tiltakslopet/fase-3-finne-jobb.md)

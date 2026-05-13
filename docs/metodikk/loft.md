@@ -2,7 +2,7 @@
 title: LØFT
 description: Løsningsfokusert tilnærming — fra problemsnakk til løsningssnakk, med fokus på ressurser, unntak og neste steg.
 sidebar_label: LØFT
-sidebar_position: 5
+sidebar_position: 6
 tags: [innføring]
 ---
 

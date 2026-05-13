@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './PhaseTimeline.module.css';
+import React from "react";
+import styles from "./PhaseTimeline.module.css";
 
 export interface PhaseTimelineProps {
   showMilestone?: boolean;
@@ -20,53 +20,53 @@ function mX(month: number): number {
 
 const PHASES = [
   {
-    label: 'Fase 1',
-    desc: 'Innledende kontakt',
+    label: "Fase 1",
+    desc: "Bli kjent",
     start: 0,
     end: 1,
-    color: '#5b9cf6',
-    textColor: '#fff',
+    color: "#5b9cf6",
+    textColor: "#fff",
   },
   {
-    label: 'Fase 2',
-    desc: 'Yrkeskartlegging',
+    label: "Fase 2",
+    desc: "Yrkeskartlegging",
     start: 0.25,
     end: 3.5,
-    color: '#3d88ed',
-    textColor: '#fff',
+    color: "#3d88ed",
+    textColor: "#fff",
   },
   {
-    label: 'Fase 2.5',
-    desc: 'Intern arena (valgfri)',
+    label: "Fase 2.5",
+    desc: "Intern arena (valgfri)",
     start: 1,
     end: 3,
-    color: '#e8b84d',
-    textColor: '#fff',
+    color: "#e8b84d",
+    textColor: "#fff",
     optional: true,
   },
   {
-    label: 'Fase 3',
-    desc: 'Finne jobb',
+    label: "Fase 3",
+    desc: "Finne jobb",
     start: 2,
     end: 6,
-    color: '#2878e8',
-    textColor: '#fff',
+    color: "#2878e8",
+    textColor: "#fff",
   },
   {
-    label: 'Fase 4',
-    desc: 'Arbeidsgiversamarbeid',
+    label: "Fase 4",
+    desc: "Arbeidsgiversamarbeid",
     start: 3,
     end: 9,
-    color: '#1a68e0',
-    textColor: '#fff',
+    color: "#1a68e0",
+    textColor: "#fff",
   },
   {
-    label: 'Fase 5',
-    desc: 'Opplæring og oppfølging',
+    label: "Fase 5",
+    desc: "Opplæring og oppfølging",
     start: 4,
     end: 12,
-    color: '#1055cc',
-    textColor: '#fff',
+    color: "#1055cc",
+    textColor: "#fff",
   },
 ] as const;
 
@@ -113,7 +113,7 @@ export default function PhaseTimeline({
                     fontSize="10"
                     fill="var(--ifm-color-emphasis-600)"
                   >
-                    {m === 0 ? 'Start' : `Mnd ${m}`}
+                    {m === 0 ? "Start" : `Mnd ${m}`}
                   </text>
                 )}
               </g>
@@ -125,7 +125,7 @@ export default function PhaseTimeline({
             const y = HEADER_H + i * (BAR_H + ROW_GAP);
             const x1 = mX(phase.start);
             const barW = mX(phase.end) - x1;
-            const isOpt = 'optional' in phase && phase.optional;
+            const isOpt = "optional" in phase && phase.optional;
 
             return (
               <g key={phase.label}>
@@ -160,13 +160,13 @@ export default function PhaseTimeline({
                   rx="3"
                   fill={phase.color}
                   fillOpacity={isOpt ? 0.6 : 1}
-                  strokeDasharray={isOpt ? '5 3' : undefined}
+                  strokeDasharray={isOpt ? "5 3" : undefined}
                   stroke={phase.color}
                   strokeWidth={isOpt ? 1.5 : 0}
                 />
 
                 {/* Label inside bar (only if wide enough) */}
-                {barW > 55 && (
+                {barW > 50 && (
                   <text
                     x={x1 + barW / 2}
                     y={y + BAR_H / 2 + 4}
@@ -209,9 +209,9 @@ export default function PhaseTimeline({
         </svg>
       </div>
       <figcaption className={styles.caption}>
-        Typisk forløp — varigheten tilpasses den enkelte deltaker. Fase 2.5 (intern arena) er
-        valgfri og krever faglig begrunnelse. Ekstern arbeidspraksis skal være forsøkt innen
-        tre måneder (stiplet markering).
+        Typisk forløp — varigheten tilpasses den enkelte deltaker. Fase 2.5
+        (intern arena) er valgfri og krever faglig begrunnelse. Ekstern
+        arbeidspraksis skal være forsøkt innen tre måneder (stiplet markering).
       </figcaption>
     </figure>
   );

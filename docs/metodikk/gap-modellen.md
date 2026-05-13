@@ -2,7 +2,7 @@
 title: GAP-modellen
 description: GAP-modellen som verktøy for å identifisere og lukke misforhold mellom krav i arbeidssituasjonen og deltakers forutsetninger.
 sidebar_label: GAP-modellen
-sidebar_position: 4
+sidebar_position: 5
 tags: [innføring]
 ---
 

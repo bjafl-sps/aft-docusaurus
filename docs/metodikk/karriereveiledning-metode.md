@@ -2,7 +2,7 @@
 title: Karriereveiledning
 description: Karriereveiledning som metodikk — Nasjonalt kvalitetsrammeverk, RIASEC-modellen og karriereveiledning som kontinuerlig prosess i AFT.
 sidebar_label: Karriereveiledning
-sidebar_position: 3
+sidebar_position: 4
 tags: [innføring, fordypning]
 ---
 

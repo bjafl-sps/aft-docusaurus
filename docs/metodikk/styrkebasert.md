@@ -2,7 +2,7 @@
 title: Styrkebasert tilnærming
 description: Fokus på ressurser, ferdigheter og mestring fremfor mangler og begrensninger — gjennomgående i alle faser av AFT.
 sidebar_label: Styrkebasert tilnærming
-sidebar_position: 2
+sidebar_position: 3
 tags: [innføring]
 ---
 

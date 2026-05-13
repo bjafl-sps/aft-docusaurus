@@ -1,82 +1,83 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: 'AFT Fagdokumentasjon',
-  tagline: 'Faglig grunnlag for Arbeidsforberedende trening',
-  favicon: 'img/favicon.ico',
+  title: "AFT Fagdokumentasjon",
+  tagline: "Faglig grunnlag for Arbeidsforberedende trening",
+  favicon: "img/favicon.ico",
 
   future: {
     v4: true,
   },
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: "https://your-docusaurus-site.example.com",
+  baseUrl: "/",
 
-  organizationName: 'nav',
-  projectName: 'aft-docusaurus',
+  organizationName: "nav",
+  projectName: "aft-docusaurus",
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   i18n: {
-    defaultLocale: 'nb',
-    locales: ['nb'],
+    defaultLocale: "nb",
+    locales: ["nb"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: "./sidebars.ts",
+          exclude: ["**/superpowers/**", "**/_*/*"],
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: "img/docusaurus-social-card.jpg",
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'AFT Fagdokumentasjon',
+      title: "AFT Fagdokumentasjon",
       logo: {
-        alt: 'NAV logo',
-        src: 'img/logo.svg',
+        alt: "NAV logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'mainSidebar',
-          position: 'left',
-          label: 'Dokumentasjon',
+          type: "docSidebar",
+          sidebarId: "mainSidebar",
+          position: "left",
+          label: "Dokumentasjon",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Dokumentasjon',
+          title: "Dokumentasjon",
           items: [
-            {label: 'Hva er AFT?', to: '/docs/intro'},
-            {label: 'Kom i gang', to: '/docs/kom-i-gang'},
-            {label: 'Tiltaksløpet', to: '/docs/tiltakslopet'},
+            { label: "Hva er AFT?", to: "/docs/intro" },
+            { label: "Kom i gang", to: "/docs/kom-i-gang" },
+            { label: "Tiltaksløpet", to: "/docs/tiltakslopet" },
           ],
         },
         {
-          title: 'Fagområder',
+          title: "Fagområder",
           items: [
-            {label: 'Metodikk', to: '/docs/metodikk/styrkebasert'},
-            {label: 'Samarbeid', to: '/docs/samarbeid/nav-samarbeid'},
-            {label: 'Fordypning', to: '/docs/fordypning/psykisk-helse'},
+            { label: "Metodikk", to: "/docs/metodikk/styrkebasert" },
+            { label: "Samarbeid", to: "/docs/samarbeid/nav-samarbeid" },
+            { label: "Fordypning", to: "/docs/fordypning/psykisk-helse" },
           ],
         },
       ],
