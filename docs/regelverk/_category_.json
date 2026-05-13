@@ -1,5 +1,10 @@
 {
+  "position": 8,
   "label": "Regelverk",
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "regelverk/index"
+  }
 }

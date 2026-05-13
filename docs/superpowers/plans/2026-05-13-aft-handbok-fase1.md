@@ -1,4 +1,8 @@
-﻿# AFT Håndbok — Fase 1: Kjerne og tiltaksløp
+﻿---
+unlisted: true
+---
+
+# AFT Håndbok — Fase 1: Kjerne og tiltaksløp
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 

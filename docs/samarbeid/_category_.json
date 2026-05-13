@@ -1,5 +1,10 @@
 {
+  "position": 6,
   "label": "Samarbeid",
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "samarbeid/index"
+  }
 }

@@ -88,7 +88,7 @@ psykisk helse-målgruppen og har åtte veldokumenterte prinsipper (inkludert
 nulleksklusjon og integrert team med helsetjeneste). SE er den bredere rammen
 som IPS er én variant av. Hos SPS arbeider vi med SE-rammen, men IPS-prinsippene
 er relevante særlig for deltakere med psykisk helse- og rusproblematikk.
-Se [Psykisk helse i arbeidsrettet kontekst](../fordypning/psykisk-helse.md).
+Se seksjonen om psykisk helse i arbeidsrettet kontekst (kommer).
 :::
 
 ## Place–train–maintain

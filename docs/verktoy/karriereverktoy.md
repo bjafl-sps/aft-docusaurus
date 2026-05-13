@@ -71,8 +71,8 @@ tilpasset disse utfordringene:
 - Fokus på aktiviteter, ikke abstrakte interesser
 - Tar hensyn til sensoriske preferanser og miljøbehov
 
-Se [Autistisk utbrenthet og masking](../fordypning/autistisk-utbrenthet.md) for
-utfyllende kontekst om autismespekteret og jobbkonsulentarbeid.
+Se seksjonen om autistisk utbrenthet og masking for utfyllende kontekst om
+autismespekteret og jobbkonsulentarbeid (kommer).
 
 ## JobPics
 

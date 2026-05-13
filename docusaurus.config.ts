@@ -3,9 +3,9 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "AFT Fagdokumentasjon",
-  tagline: "Faglig grunnlag for Arbeidsforberedende trening",
-  favicon: "img/favicon.ico",
+  title: "AFT Håndbok",
+  tagline: "Intern faglig håndbok for jobbkonsulenter hos Sandnes Pro-Service",
+  favicon: "img/favicon.svg",
 
   future: {
     v4: true,
@@ -47,9 +47,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "AFT Fagdokumentasjon",
+      title: "AFT Håndbok",
       logo: {
-        alt: "NAV logo",
+        alt: "SPS logo",
         src: "img/logo.svg",
       },
       items: [
@@ -57,7 +57,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "mainSidebar",
           position: "left",
-          label: "Dokumentasjon",
+          label: "Håndbok",
         },
       ],
     },
@@ -65,7 +65,7 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Dokumentasjon",
+          title: "Håndbok",
           items: [
             { label: "Hva er AFT?", to: "/docs/intro" },
             { label: "Kom i gang", to: "/docs/kom-i-gang" },
@@ -73,11 +73,11 @@ const config: Config = {
           ],
         },
         {
-          title: "Fagområder",
+          title: "Fagstoff",
           items: [
-            { label: "Metodikk", to: "/docs/metodikk/styrkebasert" },
+            { label: "Metodikk", to: "/docs/metodikk/supported-employment" },
             { label: "Samarbeid", to: "/docs/samarbeid/nav-samarbeid" },
-            { label: "Fordypning", to: "/docs/fordypning/psykisk-helse" },
+            { label: "Regelverk", to: "/docs/regelverk/kravspesifikasjonen" },
           ],
         },
       ],

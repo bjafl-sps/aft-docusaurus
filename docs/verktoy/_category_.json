@@ -1,5 +1,10 @@
 {
+  "position": 7,
   "label": "Verktøy",
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "verktoy/index"
+  }
 }

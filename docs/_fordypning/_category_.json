@@ -1,10 +1,10 @@
 {
-  "position": 5,
-  "label": "Metodikk",
+  "position": 9,
+  "label": "Fordypning",
   "collapsible": true,
   "collapsed": true,
   "link": {
     "type": "doc",
-    "id": "metodikk/index"
+    "id": "fordypning/index"
   }
 }

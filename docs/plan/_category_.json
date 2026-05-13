@@ -1,5 +1,10 @@
 {
+  "position": 4,
   "label": "Plan",
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "plan/index"
+  }
 }

@@ -1,4 +1,8 @@
-﻿# AFT Håndbok — Fase 2: Metodikk, samarbeid, verktøy, regelverk og fordypning
+﻿---
+unlisted: true
+---
+
+# AFT Håndbok — Fase 2: Metodikk, samarbeid, verktøy, regelverk og fordypning
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 

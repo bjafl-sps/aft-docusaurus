@@ -1,43 +1,32 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
-
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import type { ReactNode } from "react";
+import Link from "@docusaurus/Link";
+import Layout from "@theme/Layout";
+import styles from "./index.module.css";
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      title="AFT Håndbok"
+      description="Intern faglig håndbok for jobbkonsulenter hos Sandnes Pro-Service"
+    >
+      <main className={styles.page}>
+        <div className={styles.hero}>
+          <span className={styles.beta}>BETA</span>
+          <h1 className={styles.title}>AFT Håndbok</h1>
+          <p className={styles.lead}>
+            Faglig referanseverk for jobbkonsulenter hos Sandnes Pro-Service —
+            metodikk, arbeidsgang og faglig grunnlag for Arbeidsforberedende
+            trening.
+          </p>
+          <Link className="button button--primary button--lg" to="/docs/intro">
+            Åpne håndboken →
+          </Link>
+        </div>
+
+        <div className={styles.notice}>
+          <strong>Betaversjon · mai 2026</strong>
+          {" — "}Innholdet er under utarbeidelse.
+        </div>
       </main>
     </Layout>
   );
